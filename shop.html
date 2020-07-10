@@ -1,0 +1,561 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="css/shopstyle.css">
+    <title> shop</title>
+    <link rel="shortcut icon" href="img\landmark.png">
+  </head>
+  <body>
+      <!--nav-->
+      <header>
+<header  >
+<div class="container-fluid">
+  <div class="row p-2 fixed-top bg-aqua text-dark" style="z-index: 1;">
+   
+    <div class="bg-aqua text-dark w-100">
+      <ul class="nav w-100">
+      <li class="nav-item col-md-3">
+        <a class="nav-link disabled d-none d-md-block" href="#" tabindex="-1" aria-disabled="true"><em>Telephone: 
+(060)  544060 </em></a>
+      </li>
+      
+      <li class="nav-item col-md-3">
+        <a class="nav-link disabled d-none d-md-block" href="#" tabindex="-1" aria-disabled="true"><em>Ք1, 1 Mashtots St, Arinj 2210</em></a>
+      </li>
+          
+      <li class="nav-item col-md-2 col-sm-6 col-6">
+        <div class="col-auto my-1"><form>
+          <select class="custom-select mr-sm-2 border-danger" id="inlineFormCustomSelect">
+            <option selected>Լեզու</option>
+            <option value="1">Լեզու / Հայերեն</option>
+            <option value="2">Լեզու / Անգլերեն</option>
+          </select></form>
+        </div>
+      </li>
+          
+      <li class="nav-item col-md-2 col-sm-6 col-6">
+        <div class="col-auto my-1"><form>
+        <select class="custom-select mr-sm-2 border-danger" id="inlineFormCustomSelect">
+          <option selected>Տարադրամ</option>
+          <option value="1">Տարադրամ / Դրամ</option>
+          <option value="2">Տարադրամ / Դոլար</option>
+        </select></form>
+        </div>
+      </li>
+      <div class="col-md-2 col-lg-2 d-none d-md-block  ">
+           <button type="button" class="btn btn-dark  text-white float-right">
+                <a href="wishlist.html" class="text-light"> Wishlist</a> <span class="badge badge-light">0</span>
+           </button>
+          </div>
+         
+   
+    </div>  
+    
+         <div class="navbar navbar-aqua bg-aqua w-100">
+           <div class="col-6 col-md-1"><a href="index.html" class="navbar-brand"><h1 class="display-5">BMW Երևան</h1></a></div>
+            <div class="col-md-8  d-none d-md-block">
+              <form class="form-inline w-50  ml-auto">
+              </form></div>
+
+
+
+            <div class="col-6 col-md-2 pr-3 btn ">
+            <div class="dropdown ml-auto ">
+              <button class="btn btn-success d-none d-md-block dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Պրոֆիլ
+              </button>
+            
+              <div class="dropdown-menu w-25" aria-labelledby="dropdownMenu2">
+                <button class="dropdown-item" type="button" data-toggle="modal" data-target="#loginModal">Մուտք</button>
+                <button class="dropdown-item" type="button" data-toggle="modal" data-target="#registModal">Գրանցում</button>
+                <a class="dropdown-item" href="myorders.html">Իմ պատվերները</a>
+            <a class="dropdown-item" href="myaccount.html">
+Կարգավորում</a>
+              </div>
+          </div>
+            </div>
+          </div>
+
+
+
+
+         
+  
+    </ul>
+  </div>
+</nav>
+</div>
+</header>
+<!--header end-->
+
+
+<!--content-->
+<div class="container-lg">
+      <div class="row d-lg-flex">
+  <nav class="col-lg-7" aria-label="breadcrumb">
+          
+        </nav>
+            <div class="col-lg-3 mb-2">
+          <form>
+          <select class="custom-select mr-sm-2 border-dark" id="inlineFormCustomSelect">
+            <option  class="text-capitalize" selected>Priced Form Low To High</option>
+            <option value="1" class="text-capitalize">Priced form high to low</option>
+          </select>
+        </form>
+            </div>
+    
+    </div>
+     <div class="row">
+       <div class="col-lg-3 my-3"><div class="accordion" id="accordionExample">
+  
+
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h2 class="mb-0">
+        <button class="btn btn-block text-left collapsed text-capitalize" type="button" data-toggle="collapse" data-target="#collapsePrice" aria-expanded="true" aria-controls="collapsePrice">
+          Choose Price
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapsePrice" class="collapse" aria-labelledby="headingPrice" data-parent="#accordionExample">
+      <div class="card-body">
+      <form> <div class="custom-control custom-checkbox m-2">
+        <input type="checkbox" class="custom-control-input" id="customCheck">
+        <label class="custom-control-label" for="customCheck">Less Than 2000$</label>
+      </div>
+      <div class="custom-control custom-checkbox m-2">
+        <input type="checkbox" class="custom-control-input" id="customCheck2">
+        <label class="custom-control-label" for="customCheck2">2000$ - 10000$</label>
+      </div>
+     <div class="custom-control custom-checkbox m-2">
+        <input type="checkbox" class="custom-control-input" id="customCheck3">
+        <label class="custom-control-label" for="customCheck3">10000$ - 50000$</label>
+      </div>
+      <div class="custom-control custom-checkbox m-2">
+        <input type="checkbox" class="custom-control-input" id="customCheck4">
+        <label class="custom-control-label" for="customCheck4">More Than 50000$</label>
+      </div>
+    </form>
+      </div>
+    </div>
+  </div>
+  
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h2 class="mb-0">
+        <button class="btn btn-block text-left collapsed text-capitalize" type="button" data-toggle="collapse" data-target="#collapseSize" aria-expanded="false" aria-controls="collapseSize">
+      Choose Yare
+        </button>
+      </h2>
+    </div>
+    <div id="collapseSize" class="collapse" aria-labelledby="headingSize" data-parent="#accordionExample">
+      <div class="card-body"><form>
+        <div class="custom-control custom-switch mx-3">
+          <input type="checkbox" class="custom-control-input" id="42">
+          <label class="custom-control-label" for="42">2015</label>
+        </div>
+        <div class="custom-control custom-switch mx-3">
+          <input type="checkbox" class="custom-control-input" id="44">
+          <label class="custom-control-label" for="44">2005</label>
+        </div>
+        <div class="custom-control custom-switch mx-3">
+          <input type="checkbox" class="custom-control-input" id="46">
+          <label class="custom-control-label" for="46">2018</label>
+        </div>
+        <div class="custom-control custom-switch mx-3">
+          <input type="checkbox" class="custom-control-input" id="48">
+          <label class="custom-control-label" for="48">2020</label>
+        </div>
+        <div class="custom-control custom-switch mx-3">
+          <input type="checkbox" class="custom-control-input" id="50">
+          <label class="custom-control-label" for="50">2006</label>
+        </div>
+        <div class="custom-control custom-switch mx-3">
+          <input type="checkbox" class="custom-control-input" id="52">
+          <label class="custom-control-label" for="52">2008</label>
+        </div>
+      </form>
+      </div>
+    </div>
+  </div>
+  
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h2 class="mb-0">
+        <button class="btn btn-block text-left collapsed text-capitalize" type="button" data-toggle="collapse" data-target="#collapsecolor" aria-expanded="false" aria-controls="collapsecolor">
+      choose color
+        </button>
+      </h2>
+    </div>
+    <div id="collapsecolor" class="collapse" aria-labelledby="headingcolor" data-parent="#accordionExample">
+      <div class="card-body">
+       <form class="d-flex">
+        <div class="mx-2">
+         <div class="custom-contro
+         <div class="custom-control custom-checkbox m-1">
+          <input type="checkbox" class="custom-control-input" id="blue">
+          <label class="custom-control-label" for="blue"><img width="30px" height="30px" src="img\indigo-blue.jpg" class="rounded-circle"></label>
+        </div>
+         <div class="custom-control custom-checkbox m-1">
+          <input type="checkbox" class="custom-control-input" id="green">
+          <label class="custom-control-label" for="green"><img width="30px" height="30px" src="img\Green_square.svg.png" class="rounded-circle"></label>
+        </div>
+         <div class="custom-control custom-checkbox m-1">
+          <input type="checkbox" class="custom-control-input" id="yellow">
+          <label class="custom-control-label" for="yellow"><img width="30px" height="30px" src="img\Spectrum-Solids-Bright-Yellow.jpg" class="rounded-circle"></label>
+        </div>
+        </div>
+           <div class="mx-2">
+         <div class="custom-control custom-checkbox m-1">
+          <input type="checkbox" class="custom-control-input" id="gray">
+          <label class="custom-control-label" for="gray"><img width="30px" height="30px" src="img\Lead-Gray.jpg" class="rounded-circle"></label>
+        </div>
+         <div class="custom-control custom-checkbox m-1">
+          <input type="checkbox" class="custom-control-input" id="brown">
+          <label class="custom-control-label" for="brown"><img width="30px" height="30px" src="img\Без названия.png" class="rounded-circle"></label>
+        </div>
+         <div class="custom-control custom-checkbox m-1">
+          <input type="checkbox" class="custom-control-input" id="white">
+          <label class="custom-control-label" for="white"><img width="30px" height="30px" src="img\59522.jpg" class="rounded-circle"></label>
+        </div>
+         <div class="custom-control custom-checkbox m-1">
+          <input type="checkbox" class="custom-control-input" id="black">
+          <label class="custom-control-label" for="black"><img width="30px" height="30px" src="img\1280px-Black_flag.svg.png" class="rounded-circle"></label>
+        </div>
+        </div>
+       </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h2 class="mb-0">
+        <button class="btn btn-block text-left collapsed text-capitalize" type="button" data-toggle="collapse" data-target="#collapseSeason" aria-expanded="true" aria-controls="collapseSeason">
+          Choose Models
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapseSeason" class="collapse" aria-labelledby="headingSeason" data-parent="#accordionExample">
+      <div class="card-body">
+       <form > <div class="custom-control custom-checkbox mx-2">
+        <input type="checkbox" class="custom-control-input" id="year">
+        <label class="custom-control-label" for="year">520i</label>
+      </div>
+      <div class="custom-control custom-checkbox mx-2">
+        <input type="checkbox" class="custom-control-input" id="summer">
+        <label class="custom-control-label" for="summer">550Xi</label>
+      </div>
+     <div class="custom-control custom-checkbox mx-2">
+        <input type="checkbox" class="custom-control-input" id="winter">
+        <label class="custom-control-label" for="winter">M8</label>
+      </div>
+    </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+       
+
+
+
+
+       <div class="col-lg-9 d-lg-block ">product.html
+         <div class="card mb-3 col-12 border-0">
+              <div class="row no-gutters">
+                <div class="col-md-4">
+                  <a href="product.html"><img src="https://www.automobilesreview.com/img/bmw-5-series-f10-sports-package/bmw-f10-m-sports-package-01.jpg" class="card-img img-fluid "></a>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title"><a href="single.html">BMW F10</a></h5>
+        h            <p class="card-text">BMW F10 — шестое поколение BMW «пятой» серии, которое было представлено 23 ноября 2009 и выпускается с начала 2010 года.</p>
+                    <p class="card-text text-success"><strong>15000$</strong></p>
+                    
+                    <a href="wishlist.html" class="btn btn-secondary text-left">Add To Card</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        <div class="card mb-3 col-12 border-0">
+              <div class="row no-gutters">
+                <div class="col-md-4">
+                  <a href="product.html"><img src="https://i.ytimg.com/vi/G_9gGvkzNVM/maxresdefault.jpg" class="card-img img-fluid "></a>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title"><a href="single.html">BMW M5</a></h5>
+                    <p class="card-text">BMW F10 — шестое поколение BMW «пятой» серии, которое было представлено 23 ноября 2009 и выпускается с начала 2010 года.</p>
+                    <p class="card-text text-success"><strong>12900$</strong></p>
+                    
+                    <a href="wishlist.html" class="btn btn-secondary text-left">Add To Card</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+        <div class="card mb-3 col-12 border-0">
+              <div class="row no-gutters">
+                <div class="col-md-4">
+                 <a href="product.html"><img src="https://avatars.mds.yandex.net/get-verba/787013/2a00000163d68e1bc2da6042f7438f626da8/cattouchret" class="card-img img-fluid "></a> 
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title"><a href="single.html">BMW X5</a></h5>
+                    <p class="card-text">BMW F10 — шестое поколение BMW «пятой» серии, которое было представлено 23 ноября 2009 и выпускается с начала 2010 года.</p>
+                    <p class="card-text text-success"><strong>25000$</strong></p>
+                
+                    <a href="wishlist.html" class="btn btn-secondary text-left">Add To Card</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+             <div class="card mb-3 col-12 border-0">
+              <div class="row no-gutters">
+                <div class="col-md-4">
+                <a href="product.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/BMW_E90_Coupe_front_20080524.jpg/1200px-BMW_E90_Coupe_front_20080524.jpg" class="card-img img-fluid "></a>  
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title"><a href="single.html">BMW E90</a></h5>
+                    <p class="card-text">BMW F10 — шестое поколение BMW «пятой» серии, которое было представлено 23 ноября 2009 и выпускается с начала 2010 года.</p>
+                    <p class="card-text text-success"><strong>8500$</strong></p>
+                     
+                    <a href="wishlist.html" class="btn btn-secondary text-left">Add To Card</a>                 
+                     </div>
+                </div>
+              </div>
+            </div>
+             <div class="card mb-3 col-12 border-0">
+              <div class="row no-gutters">
+                <div class="col-md-4">
+                  <a href="product.html"><img src="https://img.drive.ru/i/0/5d9d76ffec05c41e53000014.jpg" class="card-img img-fluid "></a>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title"><a href="single.html">BMW M8</a></h5>
+                    <p class="card-text">BMW M8 — шестое поколение BMW «пятой» серии, которое было представлено 23 ноября 2009 и выпускается с начала 2010 года.</p>
+                    <p class="card-text text-success"><strong>50000$</strong></p>
+                    
+                    <a href="wishlist.html" class="btn btn-secondary text-left">Add To Card</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        <div class="card mb-3 col-12 border-0">
+              <div class="row no-gutters">
+                <div class="col-md-4">
+                 <a href="product.html"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/2016_BMW_i8.jpg" class="card-img img-fluid "></a> 
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title"><a href="single.html">BMW I8</a></h5>
+                    <p class="card-text">BMW I8 — шестое поколение BMW «пятой» серии, которое было представлено 23 ноября 2009 и выпускается с начала 2010 года.</p>
+                    <p class="card-text text-success"><strong>100wislist</strong></p>
+                
+                    
+                    <a href="wishlist.html" class="btn btn-secondary text-left">Add To Card</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+       </div>
+     
+
+
+
+
+
+
+
+
+
+
+
+     </div>  
+</div>
+<!--/content-->
+<div class="row justify-content-center">
+<nav aria-label="Page navigation example">
+  <ul class="pagination">
+    <li class="page-item">
+      <a class="page-link" href="#" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+  </ul>
+</nav></div>
+<footer>
+   <div class="container-fluid text-center bg-white">
+        <div class="row p-3  text-light" style="background-color: #252525 ">
+          <div class="col-12 col-md-3"><a href="#" class="text-uppercase text-light text-decoration-none lead">contact us</a></div>
+          <div class="col-12 col-md-3"><a href="#" class="text-uppercase text-light text-decoration-none lead">about us</a></div>
+          <div class="col-12 col-md-3"><a href="#" class="text-uppercase text-light text-decoration-none lead">shipping</a></div>
+          <div class="col-12 col-md-3"><a href="#" class="text-uppercase text-light text-decoration-none lead">live chat</a></div>
+        </div>
+        
+          
+          
+        </div>
+        <div class="row p-3 d-md-flex align-items-center border-top">
+          <div class = "col-12 col-md-6">
+            <ul class="list-group list-group-horizontal d-flex justify-content-center">
+              <li class="list-group-item border-0"><a href="#"><img src="https://icons-for-free.com/iconfiles/png/512/instagram-131979013078668579.png" width="50" height="50"></a></li>
+              <li class="list-group-item border-0"><a href="#"><img src="https://icons-for-free.com/iconfiles/png/512/twitter-131979013536752881.png" width="50" height="50"></a></li>
+              <li class="list-group-item border-0"><a href="#"><img src="https://icons-for-free.com/iconfiles/png/512/facebook-131979012930159929.png" width="50" height="50"></a></li>
+              <li class="list-group-item border-0"><a href="#"><img src="https://icons-for-free.com/iconfiles/png/512/linkedin-131979013125439641.png" width="50" height="50"></a></li>
+            </ul> 
+          </div>
+          <div class = "col-12 col-md-6 text-right text-center"><span class="lead text-capitalize">&copy;ERIK Badalyan 2020.</span></div>
+        </div>
+      </div>
+</footer>
+  </div>
+</div>
+
+
+
+
+
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <button type="submit" class="btn btn-outline-dark">Submit</button>
+</form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="registModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Name</label>
+      <input type="text" class="form-control" id="inputEmail4">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Lastname</label>
+      <input type="text" class="form-control" id="inputPassword4">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Email</label>
+      <input type="email" class="form-control" id="inputEmail4">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Password</label>
+      <input type="password" class="form-control" id="inputPassword4">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputAddress">Address</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="Street">
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputCity">City</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputState">State</label>
+      <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select>
+    </div>
+  </div>
+  </div>
+  <button type="submit" class="btn btn-outline-dark">Register</button>
+</form>
+      </div>
+    </div>
+  </div>
+</div>
+   
+
+   <!-- Modal -->
+<div class="modal fade" id="quickview" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Quick View</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+    <img class="img-fluid d-block my-1" src="img\-.jpg">
+    <p class="h2 my-3 ml-auto">BMW F10</p>
+                <p class="card-text">2020 Fashion Summer Bandage Strap Spaghetti strap Cropped Top+ Mini Skirts Gypsy Beachwear</p>
+                    <p class="card-text text-success my-3 h4"><strong>15000$</strong></p>
+                   
+                                        <form>
+                    <div class="d-flex m-3">
+                      <div class="custom-control custom-radio mx-2 mb-4 ">
+                      <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+                      <label class="custom-control-label" for="customRadio1"><img class="img-thumbnail" width="70px" height="70px" src="img/-.jpg"></label>
+                    </div>
+                    <div class="custom-control custom-radio mx-2">
+                      <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                      <label class="custom-control-label" for="customRadio2"><img class="img-thumbnail" width="70px" height="70px" src="img/trjrj.JPG"></label>
+                    </div>
+                  </div></form>
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+
+
+  </body>
+</html>
